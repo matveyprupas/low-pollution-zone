@@ -71,33 +71,33 @@ h3 {
 }
 
 .zone-data__map .camera:nth-of-type(2) {
-    left: 100px;
-    top: 30px;
+    left: 115px;
+    top: 45px;
 }
 
 .zone-data__map .camera:nth-of-type(3) {
-    left: 70px;
-    top: 95px;
+    left: 85px;
+    top: 110px;
 }
 
 .zone-data__map .camera:nth-of-type(4) {
-    left: 25px;
-    top: 195px;
+    left: 40px;
+    top: 230px;
 }
 
 .zone-data__map .camera:nth-of-type(5) {
-    left: 290px;
-    top: 305px;
+    left: 335px;
+    top: 355px;
 }
 
 .zone-data__map .camera:nth-of-type(6) {
-    left: 510px;
-    top: 135px;
+    left: 590px;
+    top: 160px;
 }
 
 .zone-data__map .camera:nth-of-type(7) {
-    left: 450px;
-    top: 40px;
+    left: 520px;
+    top: 50px;
 }
 
 .zone-data__map .sensor {
@@ -107,26 +107,26 @@ h3 {
 }
 
 .zone-data__map #sensor1 {
-    left: 150px;
-    top: 200px;
+    left: 190px;
+    top: 240px;
     background-color: rgba(255, 0, 0, 0.8);
 }
 
 .zone-data__map #sensor2 {
-    left: 290px;
-    top: 170px;
+    left: 350px;
+    top: 190px;
     background-color: rgba(255, 217, 0, 0.8);
 }
 
 .zone-data__map #sensor3 {
     left: 250px;
-    top: 250px;
+    top: 285px;
     background-color: rgba(94, 255, 0, 0.8);
 }
 
 .zone-data__map #sensor4 {
-    left: 110px;
-    top: 100px;
+    left: 140px;
+    top: 140px;
     background-color: rgba(94, 255, 0, 0.8);
 }
 
