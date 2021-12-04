@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #fefefe;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1,
+h3 {
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    padding: 60px 120px;
+    max-width: 1200px;
+    /* background-color: pink; */
+}
+
+.zone-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.zone-data__start, 
+.zone-data__actual, 
+.zone-data__scale, 
+.zone-data__map {
+    border: 2px solid #333;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: lightgrey;
+}
+
+.zone-data__start .zone-data__wrap, 
+.zone-data__actual .zone-data__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.back-data {
+    border: 2px solid #333;
+    padding: 4px;
+}
+
+.zone-data__map {
+    width: 60%;
+}
+
+.zone-data__map-wrap {
+    position: relative;
+}
+
+.zone-data__map img {
+    width: 100%;
+}
+
+.zone-data__map .camera {
+    position: absolute;
+    width: 24px;
+}
+
+.zone-data__map .camera:nth-of-type(2) {
+    left: 100px;
+    top: 30px;
+}
+
+.zone-data__map .camera:nth-of-type(3) {
+    left: 70px;
+    top: 95px;
+}
+
+.zone-data__map .camera:nth-of-type(4) {
+    left: 25px;
+    top: 195px;
+}
+
+.zone-data__map .camera:nth-of-type(5) {
+    left: 290px;
+    top: 305px;
+}
+
+.zone-data__map .camera:nth-of-type(6) {
+    left: 510px;
+    top: 135px;
+}
+
+.zone-data__map .camera:nth-of-type(7) {
+    left: 450px;
+    top: 40px;
+}
+
+.zone-data__map .sensor {
+    position: absolute;
+    width: 24px;
+
+}
+
+.zone-data__map #sensor1 {
+    left: 150px;
+    top: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.zone-data__map #sensor2 {
+    left: 290px;
+    top: 170px;
+    background-color: rgba(255, 217, 0, 0.8);
+}
+
+.zone-data__map #sensor3 {
+    left: 250px;
+    top: 250px;
+    background-color: rgba(94, 255, 0, 0.8);
+}
+
+.zone-data__map #sensor4 {
+    left: 110px;
+    top: 100px;
+    background-color: rgba(94, 255, 0, 0.8);
+}
+
+.zone-data__scale {
+    width: 20%;
+}
+
+.zone-data__scale .zone-data__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 4px;
+}
+
+.zone-data__scale .zone-data__wrap.red-color {
+    border: 4px red solid;
+}
+
+.zone-data__scale .zone-data__wrap.yellow-color {
+    border: 4px rgb(255, 217, 0) solid;
+}
+
+.zone-data__scale .zone-data__wrap.green-color {
+    border: 4px green solid;
+}

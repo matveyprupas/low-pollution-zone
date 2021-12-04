@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low Pollution Zone</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Uzupio Low Pollution Zone</h1>
+        <section class="zone-data">
+            <div class="zone-data__start">
+                <h3>This data shows pollution and other data until project start</h3>
+                <div class="zone-data__wrap">
+                    <span>Average pollution of Uzupio</span>
+                    <span>500 ppm</span>
+                </div>
+                <div class="zone-data__wrap">
+                    <span>Numbers of working sensors</span>
+                    <span>6 pcs</span>
+                </div>
+            </div>
+            <div class="zone-data__actual">
+                <h3>This data shows pollution and other data in real time</h3>
+                <div class="zone-data__wrap">
+                    <span>Real time average pollution of Uzupio</span>
+                    <div>
+                        <span class="back-data">378</span>
+                        <span> ppm</span>
+                    </div>
+                </div>
+                <div class="zone-data__wrap">
+                    <span>Numbers of working sensors</span>
+                    <div>
+                        <span class="back-data">5</span>
+                        <span> pcs</span>
+                    </div>
+                </div>
+                <div class="zone-data__wrap">
+                    <span>Numbers of broken sensors</span>
+                    <div>
+                        <span class="back-data">2</span>
+                        <span> pcs</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="zone-data">
+            <div class="zone-data__map">
+                <h3>This is map of Uzupio LPZ district</h3>
+                <div class="zone-data__map-wrap">
+                    <img src="./assets/imgs/map.png" alt="map">
+                    <img src="./assets/imgs/photocamera_78342.svg" alt="camera" class="camera">
+                    <img src="./assets/imgs/photocamera_78342.svg" alt="camera" class="camera">
+                    <img src="./assets/imgs/photocamera_78342.svg" alt="camera" class="camera">
+                    <img src="./assets/imgs/photocamera_78342.svg" alt="camera" class="camera">
+                    <img src="./assets/imgs/photocamera_78342.svg" alt="camera" class="camera">
+                    <img src="./assets/imgs/photocamera_78342.svg" alt="camera" class="camera">
+                    <img src="./assets/imgs/sensor_5460.png" alt="sensor" class="sensor" id="sensor1">
+                    <img src="./assets/imgs/sensor_5460.png" alt="sensor" class="sensor" id="sensor2">
+                    <img src="./assets/imgs/sensor_5460.png" alt="sensor" class="sensor" id="sensor3">
+                    <img src="./assets/imgs/sensor_5460.png" alt="sensor" class="sensor" id="sensor4">
+
+                </div>
+            </div>
+            <div class="zone-data__scale">
+                <h3>What does it mean color of sensor?</h3>
+                <div class="zone-data__wrap red-color">
+                    <span>Red</span>
+                    <span>X > 1000 ppm</span>
+                </div>       
+                <div class="zone-data__wrap yellow-color">
+                    <span>Yellow</span>
+                    <span>1000 > X > 500 ppm</span>
+                </div>       
+                <div class="zone-data__wrap green-color">
+                    <span>Green</span>
+                    <span>X < 500 ppm</span>
+                </div>            
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
