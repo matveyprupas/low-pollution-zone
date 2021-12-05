@@ -157,18 +157,13 @@ h3 {
 a.settings-btn,
 a.settings-btn:active,
 a.settings-btn:checked  {
-    display: inline-block;
     padding: 4px 8px;
     border: 2px solid #333;
     font-size: 1.4rem;
     color: #333;
     text-decoration: none;
-    margin-top: 20px;
 }
 .stat-img {
     width: 70%;
-}
-
-.stats-wrap {
-    display: flex;
+    display: block;
 }
